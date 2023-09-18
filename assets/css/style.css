@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(246, 200, 246);
+}
+
+.container {
+    padding: 0 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #13111A;
+    margin-bottom: 1rem;
+}
+
+.hero-left p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #13111A;
+    margin-bottom: 2rem;
+}
+
+.hero-right .hero-img {
+    width: 350px;
+}
+
+.btn-primary {
+    background-color: #6C62D5;
+    color: rgb(246, 200, 246);
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #5A4DBF;
+}
+
+header {
+    background-color: purple;
+    padding: 1rem 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #13111A;
+}
+
+header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav-links li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+header .nav-links li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #13111A;
+    text-decoration: none;
+}
+
+header .nav-links li a:hover {
+    color: #6C62D5;
+}
+
+header .nav-links li:last-child {
+    margin-right: 0;
+}
